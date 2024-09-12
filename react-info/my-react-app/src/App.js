@@ -11,3 +11,5 @@ function Mycomponent() {
     </div>
   );
 }
+
+export default Mycomponent;
