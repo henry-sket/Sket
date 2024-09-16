@@ -6,7 +6,7 @@ function App() {
 );
 }
 export defafult App;
-<h1 style={{ textAlign: 'center', color: 'darkblue' }}>My To-Do List</h1>
+<h1 style={{ textAlign: 'center', color: 'darkblue' }}>My To-Do List</hl>
 <div style={{ textAlign: 'center' }}>
 <input 
 type="text"
@@ -30,9 +30,9 @@ Add
 function Todo() {
   return (
     <div>
-    <h1 style={{ textAlign: 'center', color: 'darkblue' }}>
+    <hl style={{ textAlign: 'center', color: 'darkblue' }}>
 My To-Do List
-  </h1>
+  </hl>
 <div style={{ textAlign: 'center', }}>
 <input
 type="text"
