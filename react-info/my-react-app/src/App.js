@@ -2,12 +2,15 @@ import REACT from 'react';
 
 import './App.css';
 
-function Mycomponent() {
+function App() {
  const handleClick = () => alert('Hello, React!');
   return (
-    <div>
-    <h1>Hello, React!</h1>;
-           <button onClick={handleClick}>Click Me</button>
+    <div className="App">
+    <h1>React Input Events and Forms</h1>
+           <input type="text" placeholder="Enter your name" />
     </div>
   );
 } 
+
+
+export default App;
